@@ -1,0 +1,26 @@
+{
+  "name": "webpack-echarts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengfanfei/Echarts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengfanfei/Echarts/issues"
+  },
+  "homepage": "https://github.com/mengfanfei/Echarts#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "echarts": "^4.8.0"
+  }
+}
