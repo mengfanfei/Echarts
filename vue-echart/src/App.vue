@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <echarts></echarts>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import echarts from './components/echarts'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    echarts
   }
 }
 </script>
 
 <style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100vw;
+  height: 100vh;
+  background: #eee;
+  padding: 20px;
+  box-sizing: border-box;
 }
 </style>
